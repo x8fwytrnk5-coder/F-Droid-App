@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+  <repo
+    name="Taxi Goral F-Droid Repo"
+    icon="icon.png"
+    url="https://x8fwytrnk5-coder.github.io/F-Droid-App/repo"
+    description="Oficiálny repozitár TAXAMETER aplikácie pre Taxi Goral"
+    version="1" />
+
+  <application id="com.taxameter.goral">
+    <name>Taxameter Goral</name>
+    <summary>Oficiálna aplikácia Taxameter pre Taxi Goral</summary>
+    <icon>icon.png</icon>
+
+    <package
+      version="1.0"
+      versioncode="1"
+      apkname="taxameter.apk"
+      hash="ffed5e9336792d41e36d1517f54fc1d7b4781171309146adfadd78da27e29115"
+      hashType="sha256"
+      size="938089"
+      />
+
+  </application>
+</fdroid>
