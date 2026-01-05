@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
   <repo
-    name="TaxiGoral F-Droid Repo"
-    icon="IMG_0045.png"
-    url="https://x8fwytrnk5-coder.github.io/F-Droid-App/repo/"
-    timestamp="1736083200">
+    name="Taxi Goral F-Droid Repo"
+    icon="icon.png"
+    url="https://x8fwytrnk5-coder.github.io/F-Droid-App/repo"
+    description="Oficiálny repozitár TAXAMETER aplikácie pre Taxi Goral"
+    version="1" />
 
-    <application id="com.peterluk.taxameter">
-      <id>com.peterluk.taxameter</id>
-      <name>TAXAMETER</name>
-      <summary>Jednoduchý taxameter pre vodičov taxislužby</summary>
-      <icon>IMG_0045.png</icon>
+  <application id="com.taxameter.goral">
+    <name>Taxameter Goral</name>
+    <summary>Oficiálna aplikácia Taxameter pre Taxi Goral</summary>
+    <icon>icon.png</icon>
 
-      <desc>
-Jednoduchý taxameter pre vodičov taxislužby.
+    <package
+      version="1.0"
+      versioncode="1"
+      apkname="taxameter.apk"
+      hash="ffed5e9336792d41e36d1517f54fc1d7b4781171309146adfadd78da27e29115"
+      hashType="sha256"
+      size="938089"
+      />
 
-Základná verzia umožňuje:
-- Výpočet ceny pred jazdou na základe adresy nástupu a výstupu
-- Spustenie jednoduchého aplikačného taxametra na porovnanie cenovej kalkulácie s reálnou cenou podľa GPS
-
-Pro verzia (platená) umožňuje:
-- Nastavenie jazdného podľa potreby klienta (0,40 €/km pri jazde po klienta, 0,85 €/km pri jazde s klientom)
-- Odstránenie reklamy
-- Podporu doplnkových aplikácií (samostatne platených), napr. automat na príjem časoviek a zápis do kalendára (testovaciu verziu nájdete v aplikácii Telegram pod názvom TaxiGoralBot)
-
-Kontakt:
-Peter Lukáč
-Tel.: 0908 44 25 44
-E‑mail: krupincan@icloud.com
-      </desc>
-
-      <package>
-        <version>1.0</version>
-        <versioncode>1</versioncode>
-        <apkname>taxameter.apk</apkname>
-        <hash type="sha256">TO_DOPLNÍME</hash>
-        <size>TO_DOPLNÍME</size>
-      </package>
-
-    </application>
-  </repo>
+  </application>
 </fdroid>
